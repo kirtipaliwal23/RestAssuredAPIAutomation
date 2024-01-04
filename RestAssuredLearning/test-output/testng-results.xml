@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-04T15:21:34 IST" name="Default suite" finished-at="2024-01-04T15:21:44 IST" duration-ms="9909">
+    <groups>
+      <group name="smoke">
+        <method signature="GoogleMAPAPIsTest.verifyAddPlaceAPI(int,java.lang.String)[pri:1, instance:testClasses.GoogleMAPAPIsTest@72cde7cc]" name="verifyAddPlaceAPI" class="testClasses.GoogleMAPAPIsTest"/>
+      </group> <!-- smoke -->
+      <group name="delete">
+        <method signature="GoogleMAPAPIsTest.verifyDeletePlaceAPI()[pri:4, instance:testClasses.GoogleMAPAPIsTest@72cde7cc]" name="verifyDeletePlaceAPI" class="testClasses.GoogleMAPAPIsTest"/>
+      </group> <!-- delete -->
+    </groups>
+    <test started-at="2024-01-04T15:21:34 IST" name="Default test" finished-at="2024-01-04T15:21:44 IST" duration-ms="9909">
+      <class name="testClasses.GoogleMAPAPIsTest">
+        <test-method signature="verifyAddPlaceAPI(int,java.lang.String)[pri:1, instance:testClasses.GoogleMAPAPIsTest@72cde7cc]" started-at="2024-01-04T15:21:34 IST" name="verifyAddPlaceAPI" data-provider="add place" finished-at="2024-01-04T15:21:39 IST" duration-ms="4253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[+(91)-6879283982]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddPlaceAPI -->
+        <test-method signature="verifyAddPlaceAPI(int,java.lang.String)[pri:1, instance:testClasses.GoogleMAPAPIsTest@72cde7cc]" started-at="2024-01-04T15:21:39 IST" name="verifyAddPlaceAPI" data-provider="add place" finished-at="2024-01-04T15:21:39 IST" duration-ms="377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[51]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[+(91)-6779283982]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddPlaceAPI -->
+        <test-method signature="verifyUpdatePlaceAPI()[pri:2, instance:testClasses.GoogleMAPAPIsTest@72cde7cc]" started-at="2024-01-04T15:21:39 IST" name="verifyUpdatePlaceAPI" finished-at="2024-01-04T15:21:41 IST" duration-ms="1540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdatePlaceAPI -->
+        <test-method signature="verifyGetPlaceAPI()[pri:3, instance:testClasses.GoogleMAPAPIsTest@72cde7cc]" started-at="2024-01-04T15:21:41 IST" name="verifyGetPlaceAPI" finished-at="2024-01-04T15:21:42 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetPlaceAPI -->
+        <test-method signature="verifyDeletePlaceAPI()[pri:4, instance:testClasses.GoogleMAPAPIsTest@72cde7cc]" started-at="2024-01-04T15:21:42 IST" name="verifyDeletePlaceAPI" finished-at="2024-01-04T15:21:44 IST" duration-ms="2414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeletePlaceAPI -->
+      </class> <!-- testClasses.GoogleMAPAPIsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
